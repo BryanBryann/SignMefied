@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    /* border: dotted 1px red; */
+}
+
+.item-size {
+    height: 150px;
+    width: auto;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+}
+
+.fs-huge {
+    font-size: 30px;
+}
+
+.vh-90 {
+    height: 900px;
+}
+
+.vh-30 {
+    height: 150px;
+}
+
+.vh-40 {
+    height: 400px;
+}
+
+.vh-10 {
+    height: 300px;
+}
+
+.h-small {
+    height: 2px;
+}
+
+.outline {
+    border: dotted 1px white;
+}
+
+.dotted {
+    border: dotted 2px black;
+}
+
+.az-card {
+    height: 180px;
+    width: 180px !important;
+    overflow: hidden;
+}
+
+.az-img {
+    height: 100px;
+    width: 100px;
+}
+
+.no-bg {
+    background-color: transparent;
+    /* Remove background color */
+    border: none;
+    /* Remove border */
+    padding: 0;
+    /* Remove padding */
+    cursor: pointer;
+    /* Ensure it looks clickable */
+}
+
+:root {
+
+    /* Watermelon theme   */
+    /* --violet: linear-gradient(to right, #16C47F, #16C47F);
+    --light-purple: linear-gradient(to right, #FFD65A, #FFD65A); */
+    /* --dark-purple: #F93827; */
+
+    /* Halloween v2 purple */
+    /* --violet: linear-gradient(to right, #000000, #000000);
+    --light-purple: linear-gradient(to right, #3E065F, #3E065F);
+    --dark-purple: #9376E0; */
+    
+    /* Halloween v1 red */
+    /* --violet: linear-gradient(to right, #1D1616, #1D1616);
+    --light-purple: linear-gradient(to right, #8E1616, #8E1616);
+    --dark-purple: #FEF9E1;  */
+
+    /* sement theme */
+    /* --violet: linear-gradient(to right, #4C585B, #4C585B);
+    --light-purple: linear-gradient(to right, #7E99A3, #7E99A3);
+    --dark-purple: #FEF9E1;  */
+
+    /* blue themeee */
+    /* --violet: linear-gradient(to right, #000957, #000957);
+    --light-purple: linear-gradient(to right, #344CB7, #344CB7);
+    --dark-purple: #7695FF;  */
+
+    /* red candy */
+    /* --violet: linear-gradient(to right, #F72C5B, #F72C5B);
+    --light-purple: linear-gradient(to right, #FF748B, #FF748B);
+    --dark-purple: #FFD7C4;  */
+
+    /* brownish aesthetic */
+    /* --violet: linear-gradient(to right, #7C444F, #7C444F);
+    --light-purple: linear-gradient(to right, #9F5255, #9F5255);
+    --dark-purple: #FFD7C4;  */
+
+    /* Matcha flavor */
+    /* --violet: linear-gradient(to right, #123524, #123524);
+    --light-purple: linear-gradient(to right, #3E7B27, #3E7B27);
+    --dark-purple: #FFFDEC;  */
+
+    /* coffee theme */
+    /* --violet: linear-gradient(to right, #1E201E, #1E201E);
+    --light-purple: linear-gradient(to right, #3C3D37, #3C3D37);
+    --dark-purple: #FFCFB3;  */
+    
+    /* Grey mode theme */
+    --violet: linear-gradient(to right, #213555, #213555);
+    --light-purple: linear-gradient(to right, #3E5879, #3E5879);
+    --dark-purple: #0e1539; 
+
+    /* purple theme */
+    /* --violet: linear-gradient(to right, #27005D, #27005D);
+    --light-purple: linear-gradient(to right, #9400FF, #9400FF);
+    --dark-purple: #9376E0;  */
+
+    
+    
+    --dark-purple-prev: #0e1539;
+    --violet-text: #0f0f29;
+    --purple-text: #8c52ff;
+    --learn: #796eed;
+    --gesture: #e8d44c;
+    --practice: #3ad3c6;
+    --koala: #2CECC9;
+
+    --1st: gold;
+    --2nd: silver;
+    --3rd: #cd7f32;
+
+    --m: #2CECC9;
+    --t: #B0631D;
+    --w: #EC9696;
+    --th: #CCAC00;
+    --f: #796EED;
+    --sa: #9C407B;
+    --su: #7AC03E;
+}
+
+.text-m {
+    color: var(--m);
+}
+
+.text-t {
+    color: var(--t);
+}
+
+.text-w {
+    color: var(--w);
+}
+
+.text-th {
+    color: var(--th);
+}
+
+.text-f {
+    color: var(--f);
+}
+
+.text-sa {
+    color: var(--sa);
+}
+
+.text-su {
+    color: var(--su);
+}
+
+.bg-1st {
+    background-color: var(--1st);
+}
+
+.bg-2nd {
+    background-color: var(--2nd);
+}
+
+.bg-3rd {
+    background-color: var(--3rd);
+}
+
+.star1{
+    transform: translateX(-100%) scale(1.5) rotate(-20deg);
+}
+
+.star2{
+    transform: translateY(-50%) scale(1.8);
+}
+
+.star3{
+    transform: translateX(100%) scale(1.5) rotate(20deg);
+}
+
+.big-play {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.big-plays {
+    transform: scale(2);
+}
+
+.bg-none {
+    background: none !important;
+}
+
+.bg-navbar {
+    background-color: rgba(203, 207, 227, 0.35);
+}
+
+.bg-learn {
+    background-color: var(--learn) !important;
+}
+
+.bg-smoke {
+    background-color: whitesmoke;
+}
+
+.bg-grey {
+    background-color: rgb(188, 187, 187);
+}
+
+.bg-gesture {
+    background-color: var(--gesture) !important;
+}
+
+.bg-practice {
+    background-color: var(--practice) !important;
+}
+
+.bg-darkpurple {
+    background-color: var(--dark-purple) !important;
+}
+
+.bg-lightpurple {
+    background: var(--light-purple) !important;
+}
+
+.bg-violet {
+    /* background-color: var(--violet) !important; */
+    background: var(--violet) !important;
+}
+
+.bg-koala {
+    background-color: var(--koala) !important;
+}
+
+body {
+    background-color: var(--dark-purple) !important;
+}
+
+.balance {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.balance p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.border-none {
+    border: solid 0px white !important;
+}
+
+.mid-btn {
+    /* transform: rotate(90deg); */
+    transform: translateY(-50%);
+}
+
+.buy-btn {
+    transform: translateY(50%);
+}
+
+.parent-btn {
+    position: relative;
+}
+
+.close-btn {
+    width: 50px !important;
+    height: 30px !important;
+    border-radius: 15%;
+    position: absolute;
+    /* transform: translate(100%, -50%); */
+    transform: translate(50%, 90%);
+    cursor: pointer;
+}
+
+.text-koala {
+    color: var(--koala);
+}
+
+.text-violet {
+    color: var(--violet-text);
+}
+
+.text-purple {
+    color: var(--light-purple);
+}
+
+.a-up {
+    transform: translateY(-50px);
+}
+
+.above {
+    z-index: 1;
+}
+
+.up-y {
+    transform: translateY(-50%);
+}
+
+.down-y1 {
+    transform: translate(50%, 25%);
+}
+
+.down-y {
+    transform: translate(-50%, 25%);
+}
+
+.az-border {
+    border: 2px solid var(--violet);
+}
+
+.rounded-smooth {
+    border-radius: 20px;
+}
+
+.rounded-30 {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.rounded-sm-30 {
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.rounded-bottom-30 {
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.rounded-top-30 {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+.roof-1 {
+    height: 100px;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.h-10 {
+    height: 150px;
+}
+
+.w-10 {
+    width: 180px;
+}
+
+.w-level {
+    width: 110px !important;
+    height: 110px !important;
+}
+
+.move-left {
+    transform: translateX(-75%);
+}
+
+.move-right {
+    transform: translateX(75%);
+}
+
+
+.card-10 {
+    height: 280px;
+}
+
+.chat-10 {
+    height: 300px;
+}
+
+.border-play {
+    border: 2px solid black !important;
+}
+
+.border-play-white {
+    border: 2px solid white !important;
+}
+
+.border-play-top {
+    border-top: 2px solid black !important;
+}
+
+.border-play-bottom {
+    border-bottom: 2px solid black !important;
+}
+
+.profile-size {
+    height: 50px;
+    width: 50px;
+}
+
+.profile-size-huge {
+    height: 60px;
+    width: 60px;
+    transform: scale(1.8);
+}
+
+.hide {
+    transform: translateY(-100%);
+}
+
+.showup {
+    transform: translateY(220%);
+}
+
+.showup-setting {
+    position: absolute;
+    transform: translate(0px, 340%);
+}
+
+.timestamp {
+    position: absolute;
+    transform: translate(540%, -200%);
+    width: 70px;
+}
+
+.gb-header {
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.shadow-fancy {
+    box-shadow: 0px 0px 20px rgba(121, 110, 237, 0.5);
+}
+
+.guide-video {
+    height: 150 !important;
+    width: 290 !important;
+}
+
+.dp-koala {
+    background-image: url(dist/img/koala.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dp-koala-b1 {
+    background-image: url(dist/img/koala-b1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dp-tarsier {
+    background-image: url(dist/img/tarsier.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dp-tarsier-b2 {
+    background-image: url(dist/img/tarsier-b2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-active {
+    transform: scale(1);
+    z-index: 1;
+}
+
+.nav-bg-left {
+    position: absolute;
+    width: 200px !important;
+    height: 200px;
+    overflow: hidden;
+    transform: translateX(20px) skew(20deg, 0deg);
+}
+
+.nav-bg-right {
+    position: absolute;
+    width: 200px !important;
+    height: 200px;
+    overflow: hidden;
+    transform: translateX(-20px) skew(-20deg, 0deg);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 575px) {
+    .welcome {
+        width: 300px;
+        height: 200px;
+    }
+
+    .vh-90 {
+        height: 2000px;
+    }
+}
+
+/* small devices */
+@media (max-width: 768px) {
+    .welcome {
+        width: 300;
+        height: 200;
+    }
+
+    .az-card {
+        height: 85px;
+        width: 85px !important;
+        overflow: hidden;
+    }
+
+    .az-img {
+        height: 50px;
+        width: 50px;
+        transform: translateY(-15px);
+    }
+
+    .rounded-bottom-30 {
+        border-bottom-left-radius: 30px !important;
+        border-bottom-right-radius: 30px !important;
+    }
+
+    .rounded-top-30 {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .landingpage-icon {
+        transform: translateX(8%);
+    }
+
+    .guide-sm {
+        display: none;
+    }
+
+    .fs-small {
+        font-size: 10px;
+    }
+
+    .roof-1 {
+        height: 50px;
+    }
+
+    .item-size {
+        height: 80px;
+        width: auto;
+    }
+
+    .vh-30 {
+        height: 110px;
+    }
+
+    .circle {
+        height: 60px;
+        width: 60px;
+    }
+
+    .timestamp {
+        position: absolute;
+        transform: translate(120%, -200%);
+    }
+
+    .guide-video {
+        height: 150;
+        width: 10;
+    }
+
+    .nav-bg-left {
+        position: absolute;
+        width: 80px !important;
+        height: 200px;
+        overflow: hidden;
+        transform: translateX(5px) skew(20deg, 0deg);
+    }
+
+    .nav-bg-right {
+        position: absolute;
+        width: 80px !important;
+        height: 80px;
+        overflow: hidden;
+        transform: translateX(-20px) skew(-20deg, 0deg);
+    }
+
+    .nav-active {
+        transform: scale(1.5);
+        z-index: 1;
+    }
+
+    .move-left {
+        transform: translateX(-60%);
+    }
+    
+    .move-right {
+        transform: translateX(60%);
+    }
+}
